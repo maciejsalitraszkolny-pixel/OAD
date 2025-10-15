@@ -52,8 +52,6 @@ namespace CharacterSelect
             Console.WriteLine("\nDzięki za grę! Do zobaczenia 👋");
         }
 
-        public static string Attack { get; set; }
-
         private static void Pause(string msg)
         {
             Console.WriteLine(msg);
