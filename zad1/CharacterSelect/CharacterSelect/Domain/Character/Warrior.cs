@@ -11,5 +11,10 @@ public sealed class Warrior : Entity.Character
         Strength = 14;
         Intelligence = 6;
         Agility = 8;
+        Speed = 20;
+        Mana = 20;
+        Attack = 15 * 3;
+        Skill_Attack = 100;
+        Skill_Cooldown = 400 + czas;
     }
 }
