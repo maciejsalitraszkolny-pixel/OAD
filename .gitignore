@@ -1,0 +1,53 @@
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+TestResults/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.mdb
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# IDE: Rider / JetBrains
+.idea/
+*.sln.DotSettings.user
+.sln.iml
+
+# IDE: Visual Studio
+.vs/
+
+# IDE: VS Code
+.vscode/
+.history/
+
+# Coverage / analyzers
+coverage/
+*.coverage
+*.coveragexml
+*.opencover.xml
+.coverage/
+
+# Publish / artifacts
+publish/
+artifacts/
+
+# Systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+*.temp
+
+# (opcjonalnie, gdybyś miał front)
+node_modules/
+dist/
